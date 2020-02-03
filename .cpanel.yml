@@ -1,0 +1,7 @@
+---
+    deployment:
+        tasks:
+            - export DEPLOYPATH=/home/zeonnz/public_html/acme-web-design
+            - /bin/cp *.html $DEPLOYPATH
+            - /bin/cp -R css $DEPLOYPATH
+            - /bin/cp -R img $DEPLOYPATH
